@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 4px solid darkgray;
+  
+  padding: 80px 24px 56px 24px;
+}
+.row {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: space-between;
+  display: flex;
+  }
+
+.left-side {
+  width: 45%;
+}
+
+.long-box {
+  border: 4px solid lightgray;
+  height: 50px;
+  margin-bottom: 24px;
+}
+
+.three-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.big-box {
+  width: 50%;
+  border: 4px solid lightgray;
+  margin-bottom: 24px;
+}
+
+.small-box {
+  border: 4px solid lightgray;
+  width: 30%;
+  height: 50px;
+  margin-bottom: 24px;
+}
+
